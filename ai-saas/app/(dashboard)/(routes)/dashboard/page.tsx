@@ -1,10 +1,9 @@
-const LandingPage = () => {
+const DashboardPage = () => {
     return (
       <div>
-        <p className="text-6xl text-green-500">Landing</p>
+        <p className="text-6xl text-green-500">Dashboard</p>
       </div>
     );
   };
   
-  export default LandingPage;
-  
+  export default DashboardPage;
