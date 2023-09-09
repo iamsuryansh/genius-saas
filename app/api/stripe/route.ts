@@ -37,11 +37,11 @@ export async function GET() {
       payment_method_types: ["card"],
       mode: "subscription",
       billing_address_collection: "auto",
-      customer_email: user.emailAddresses[0].emailAddress,
+      customer_email: user.emailAddresses[0].emailAddress, //from clerk
       line_items: [
         {
           price_data: {
-            currency: "USD",
+            currency: "INR",
             product_data: {
               name: "Genius Pro",
               description: "Unlimited AI Generations"
